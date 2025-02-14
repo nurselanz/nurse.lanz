@@ -1,6 +1,6 @@
 // Initialize EmailJS with your public key
 (function initEmailJS() {
-    emailjs.init("Op6IMnL29AVYFq8WY"); // Replace with your actual EmailJS public key
+    emailjs.init("Op6IMnL29AVYFq8WY");
 })();
 
 // Tab switching functionality
@@ -58,8 +58,8 @@ async function submitBooking(event) {
     try {
         // Send email using EmailJS
         await emailjs.send(
-            'service_4ho6tzh', // Replace with your EmailJS service ID
-            'template_syt4r3k', // Replace with your EmailJS template ID
+            'service_4ho6tzh',
+            'template_syt4r3k',
             templateParams
         );
 
