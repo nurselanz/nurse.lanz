@@ -58,8 +58,8 @@ async function submitBooking(event) {
     try {
         // Send email using EmailJS
         await emailjs.send(
-            'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-            'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+            'service_4ho6tzh', // Replace with your EmailJS service ID
+            'template_syt4r3k', // Replace with your EmailJS template ID
             templateParams
         );
 
