@@ -1,6 +1,6 @@
 // Initialize EmailJS with your public key
 (function initEmailJS() {
-    emailjs.init("YOUR_PUBLIC_KEY"); // Replace with your actual EmailJS public key
+    emailjs.init("Op6IMnL29AVYFq8WY"); // Replace with your actual EmailJS public key
 })();
 
 // Tab switching functionality
